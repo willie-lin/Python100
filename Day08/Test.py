@@ -10,11 +10,13 @@
 class Test:
     def __init__(self, foo):
         self.__foo = foo
+
     def __bar(self):
         print(self.__foo)
         print('__bar')
 
+
 def main():
     tets= Test("hello")
     tets.__bar()
-    print(test.__foo)
+    # print(test.__foo)
